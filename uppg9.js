@@ -6,9 +6,9 @@ function uppg9 (){
     function sort(numbers) {
         for (let num of numbers) {
             if (num % 2 === 0) {
-                console.log(num + " jämt");
+                console.log(num, "jämt");
             } else {
-                console.log(num + " udda");
+                console.log(num, "udda");
             }
         }
     }
